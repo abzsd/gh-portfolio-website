@@ -27,3 +27,27 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .animated-gradient {
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    @apply bg-gradient-to-r from-cat-blue via-cat-mauve to-cat-sapphire font-bold;
+  }
+
+  .skill-badge {
+    @apply m-2 flex h-12 items-center justify-center rounded-lg px-4 py-2.5 text-center shadow-lg transition-all hover:scale-105 hover:shadow-xl;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

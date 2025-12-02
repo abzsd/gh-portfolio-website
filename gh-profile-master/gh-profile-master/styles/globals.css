@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navButton {
+  background-size: 600%;
+  @apply my-1 flex transform items-center rounded-xl px-2 py-1 align-middle font-victormono text-xl font-semibold hover:bg-white/20 justify-center text-slate-800 transition-all duration-300 lg:my-0;
+}
+
+.dark-mode-label {
+  @apply relative flex items-center text-xl;
+}
+
+body {
+  @apply font-inter;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sectionheading {
+  @apply prose mx-auto py-10 text-center font-inter text-5xl dark:prose-invert;
+}
+
+.subsectionheading {
+  @apply prose mx-auto scale-50 py-5 text-center font-inter text-5xl dark:prose-invert;
+}
+
+.badge-arrange {
+  @apply flex flex-wrap justify-center;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 40px;
+  margin: -40px 0 0;
+}
+
+.txt {
+  @apply prose font-inter mx-auto py-4 px-4 text-center dark:prose-invert md:px-0;
+}
+
+.click-button {
+  @apply inline-flex items-center rounded-lg border-2 border-[#23a6d5] px-3 py-2 text-center text-sm font-medium font-inter text-[#23a6d5] transition-all hover:bg-[#23a6d5] hover:text-white bg-primary;
+}
+
+/* The above shade was found by lowering lightness until it no longer met AA contrast standards */
+@keyframes move-bg {
+  to {
+    background-position: 600% 0;
+  }
+}
+
+.animated-gradient {
+  background-size: 600%;
+  animation: move-bg 10s infinite linear;
+  @apply bg-gradient-to-r from-primary via-secondary to-primary shadow-lg font-bold;
+}
