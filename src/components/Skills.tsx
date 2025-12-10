@@ -17,7 +17,7 @@ const Skills = () => {
         { name: 'Python', years: 5, gradient: 'bg-gradient-to-r from-sky-500 to-sky-400 shadow-sky-500' },
         { name: 'TensorFlow', years: 3, gradient: 'bg-gradient-to-r from-orange-500 to-orange-400 shadow-orange-500' },
         { name: 'PyTorch', years: 2, gradient: 'bg-gradient-to-r from-red-500 to-red-400 shadow-red-500' },
-        { name: 'C++', years: 4, gradient: 'bg-gradient-to-r from-blue-600 to-blue-500 shadow-blue-500' },
+        { name: '', years: 4, gradient: 'bg-gradient-to-r from-blue-600 to-blue-500 shadow-blue-500' },
       ],
     },
     {
@@ -32,9 +32,9 @@ const Skills = () => {
     {
       category: 'Database & Cloud',
       skills: [
-        { name: 'MongoDB', years: 2, gradient: 'bg-gradient-to-r from-green-700 to-green-600 shadow-green-500' },
+        { name: 'GCP', years: 2, gradient: 'bg-gradient-to-r from-blue-500 to-blue-400 shadow-blue-500' },
         { name: 'AWS', years: 1, gradient: 'bg-gradient-to-r from-orange-600 to-orange-500 shadow-orange-500' },
-        { name: 'Docker', years: 1, gradient: 'bg-gradient-to-r from-blue-500 to-blue-400 shadow-blue-500' },
+        { name: 'Docker', years: 1, gradient: 'bg-gradient-to-r from-blue-600 to-blue-500 shadow-blue-500'},
       ],
     },
   ]
