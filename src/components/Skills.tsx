@@ -17,7 +17,7 @@ const Skills = () => {
         { name: 'Python', years: 5, gradient: 'bg-gradient-to-r from-sky-500 to-sky-400 shadow-sky-500' },
         { name: 'TensorFlow', years: 3, gradient: 'bg-gradient-to-r from-orange-500 to-orange-400 shadow-orange-500' },
         { name: 'PyTorch', years: 2, gradient: 'bg-gradient-to-r from-red-500 to-red-400 shadow-red-500' },
-        { name: 'LangChain', years: 4, gradient: 'bg-gradient-to-r from-green-600 to-green-500 shadow-green-500' },
+        { name: 'LangChain', years: 1, gradient: 'bg-gradient-to-r from-green-600 to-green-500 shadow-green-500' },
       ],
     },
     {
