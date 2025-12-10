@@ -21,7 +21,7 @@ const About = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-              <div className="bg-primary-light dark:bg-primary-dark p-6 rounded-lg shadow-md">
+              <div className="bg-primary-light dark:bg-primary-dark p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h3 className="text-xl font-semibold mb-3 text-cat-mauve">Education</h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   Bachelor of Engineering (B.E.) in Computer Science<br />
@@ -29,7 +29,7 @@ const About = () => {
                   2019 - 2023
                 </p>
               </div>
-              <div className="bg-primary-light dark:bg-primary-dark p-6 rounded-lg shadow-md">
+              <div className="bg-primary-light dark:bg-primary-dark p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h3 className="text-xl font-semibold mb-3 text-cat-mauve">Location</h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   Bengaluru, India<br />

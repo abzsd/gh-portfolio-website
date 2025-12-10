@@ -12,35 +12,47 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform with payment integration, user authentication, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      githubLink: 'https://github.com',
-      liveLink: 'https://example.com',
+      title: 'CareAgents',
+      description: 'Built Agentic healthcare platform using Google Gemini+FastAPI for automated doctor matching, & medical record analysis. Designed cloud-native architecture on Google Cloud Run with WebSocket streaming & Agentic RAG based record access.',
+      technologies: ['Google Gemini', 'Google ADK', 'PostgreSQL', 'FastAPI'],
+      githubLink: 'https://github.com/abzsd/careagents',
+      liveLink: 'https://careagents-frontend-346759294104.europe-west1.run.app/',
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates and team features.',
-      technologies: ['TypeScript', 'React', 'Firebase', 'Tailwind CSS'],
-      githubLink: 'https://github.com',
-      liveLink: 'https://example.com',
+      title: 'Implementation of QGANs to Perform HEP Analysis at the LHC',
+      description: 'Developed an open-source, modular Python codebase for Quantum Generative Adversarial Networks (QGAN) to generate and classify high-energy physics event data from images, demonstrating quantum ML potential. Implemented a fully quantum QGAN pipeline with LHC datasets, achieving data generation with 90 % accuracy',
+      technologies: ['Python', 'Tensorflow', 'Cirq', 'Qiskit', 'CUDA', 'C/C++'],
+      githubLink: 'https://github.com/abzsd/GSoC-ML4SCI',
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A weather dashboard that displays current conditions and forecasts using external APIs.',
-      technologies: ['React', 'OpenWeather API', 'Chart.js'],
-      githubLink: 'https://github.com',
-      liveLink: 'https://example.com',
+      title: 'QChess',
+      description: 'Developed game combining Quantum Mechanical properties and the game of Chess and testing on real Quantum backend',
+      technologies: ['Python','Qiskit'],
+      githubLink: 'https://github.com/SEDSCelestiaBPGC/quantum-chess',
     },
     {
       id: 4,
-      title: 'Portfolio Generator',
-      description: 'A tool that generates customizable portfolio websites based on user input and templates.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-      githubLink: 'https://github.com',
+      title: 'Fidelity of CX gates using QEC',
+      description: 'Under James Wootton (Zurich Research Laboratory, Zurich Switzerland) - Researched on developing a novel benchmarking technique for finding fidelity and performance of CX gates, as part of the Spring cohort of Qiskit IBM Advocate Mentorship Program\'22',
+      technologies: ['Python', 'Qiskit', 'Tensorflow', 'Cirq'],
+      githubLink: "https://github.com/qiskit-advocate/qamp-spring-22/issues/14"
     },
+    {
+      id: 5,
+      title: 'Rigid Body Rotation Simulation using Qiskit',
+      description: 'Worked on a Quantum Machine Learning research project related to simulating Rigid Body Rotations using the Rodrigues rotation formula and using Qiskit under the Qiskit IBM Adovcate Mentorship programme.',
+      technologies: ['Python', 'Qiskit', 'Tensorflow'],
+      githubLink: "https://github.com/qiskit-advocate/qamp-fall-21/issues/7"
+    },
+    {
+      id: 6,
+      title: 'Automated Evaluation System(AES): Samatulyata 2',
+      description: 'Worked on implementation of AES i.e. Samatulayata-II software using C/C++. Developed software for efficient code translation into CPN model and for verifying equivalence of translated and original code.',
+      technologies: ["C","C++","Python"],
+      githubLink: "https://gitlab.com/EQuioMaX/samatulyata2"
+    }
   ]
 
   return (
