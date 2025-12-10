@@ -17,7 +17,16 @@ const Skills = () => {
         { name: 'Python', years: 5, gradient: 'bg-gradient-to-r from-sky-500 to-sky-400 shadow-sky-500' },
         { name: 'TensorFlow', years: 3, gradient: 'bg-gradient-to-r from-orange-500 to-orange-400 shadow-orange-500' },
         { name: 'PyTorch', years: 2, gradient: 'bg-gradient-to-r from-red-500 to-red-400 shadow-red-500' },
-        { name: '', years: 4, gradient: 'bg-gradient-to-r from-blue-600 to-blue-500 shadow-blue-500' },
+        { name: 'LangChain', years: 4, gradient: 'bg-gradient-to-r from-green-600 to-yellow-500 shadow-green-500' },
+      ],
+    },
+    {
+      category: 'Database & Cloud',
+      skills: [
+        { name: 'GCP', years: 2, gradient: 'bg-gradient-to-r from-blue-500 to-blue-400 shadow-blue-500' },
+        { name: 'AWS', years: 2, gradient: 'bg-gradient-to-r from-orange-600 to-orange-500 shadow-orange-500' },
+         {name: 'PostgreSQL', years: 2, gradient: 'bg-gradient-to-r from-blue-600 to-blue-500 shadow-blue-500' },
+        { name: 'Docker', years: 1, gradient: 'bg-gradient-to-r from-blue-600 to-blue-500 shadow-blue-500' },
       ],
     },
     {
@@ -27,14 +36,6 @@ const Skills = () => {
         { name: 'TypeScript', years: 2, gradient: 'bg-gradient-to-r from-blue-600 to-blue-500 shadow-blue-500' },
         { name: 'Node.js', years: 3, gradient: 'bg-gradient-to-r from-green-600 to-green-500 shadow-green-500' },
         { name: 'Tailwind CSS', years: 2, gradient: 'bg-gradient-to-r from-slate-900 to-slate-800 shadow-slate-900' },
-      ],
-    },
-    {
-      category: 'Database & Cloud',
-      skills: [
-        { name: 'GCP', years: 2, gradient: 'bg-gradient-to-r from-blue-500 to-blue-400 shadow-blue-500' },
-        { name: 'AWS', years: 1, gradient: 'bg-gradient-to-r from-orange-600 to-orange-500 shadow-orange-500' },
-        { name: 'Docker', years: 1, gradient: 'bg-gradient-to-r from-blue-600 to-blue-500 shadow-blue-500'},
       ],
     },
   ]
